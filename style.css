@@ -1,0 +1,96 @@
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.hero-sec-text,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button,
+.call-to-action {
+    background-color: #3882F6;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.links {
+    display: flex;
+    gap: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-and-button {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hero-rest {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    margin: 50px 500px;
+}
+
+.text-and-button button {
+    align-self: flex-start;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-rest img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 10px;
+    border-color: #3882F6;
+    color: white;
+}
