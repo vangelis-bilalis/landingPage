@@ -1,5 +1,5 @@
 .hero,
-.footer {
+footer {
     background-color: #1F2937;
 }
 
@@ -14,7 +14,6 @@
 a {
     font-size: 18px;
     color: #E5E7EB;
-    margin: 0;
 }
 
 .header-logo-text {
@@ -23,7 +22,7 @@ a {
 }
 
 button,
-.call-to-action {
+.bottom {
     background-color: #3882F6;
 }
 
@@ -31,6 +30,7 @@ button,
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
+    text-align: center;
 }
 
 .quote {
@@ -43,44 +43,8 @@ button,
     color: #1F2937;
 }
 
-.links {
-    display: flex;
-    gap: 18px;
-}
-
 a {
     text-decoration: none;
-}
-
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.text-and-button {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.hero-rest {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 1000px;
-    margin: 50px 500px;
-}
-
-.text-and-button button {
-    align-self: flex-start;
-}
-
-body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .hero-rest img {
@@ -93,4 +57,121 @@ button {
     border-radius: 10px;
     border-color: #3882F6;
     color: white;
+}
+
+.picture-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 50px 50px;
+    text-align: center;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: center;
+}
+
+img {
+    height: 150px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.credit {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.quote-text {
+    margin-bottom: 0;
+}
+
+.bottom button {
+    border-color: white;
+}
+
+.bottom {
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.bottom-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.click {
+    margin-top: 0;
+}
+
+.call-to-action {
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 25px;
+}
+
+.links {
+    display: flex;
+    gap: 14px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.text-and-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.hero button {
+    align-self: flex-start;
+}
+
+.hero-rest {
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
+    gap: 200px;
+}
+
+.hero {
+    padding-bottom: 50px;
+}
+
+body {
+    margin: 0;
 }
